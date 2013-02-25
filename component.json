@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "jquery": "latest",
+        "backbone": "latest",
+        "underscore": "latest",
+        "qunit": "latest",
+        "requirejs": "2.1.1"
+    }
+}
