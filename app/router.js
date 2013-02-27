@@ -11,8 +11,13 @@ function(app) {
       "": "index"
     },
 
-    index: function() {
+    initialize: function() {
+      // TODO: create main template with default views.
+      app.useLayout("test").render();
+    },
 
+    index: function() {
+      // TODO: reset views
     }
   });
 

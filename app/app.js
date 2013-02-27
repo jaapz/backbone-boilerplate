@@ -1,8 +1,5 @@
 define([
-  "backbone.layoutmanager"
-
-  // Include additional libraries installed with JamJS or placed in the
-  // `vendor/js` directory, here.
+  "vendor/layoutmanager/backbone.layoutmanager"
 ],
 
 function(LayoutManager) {
@@ -22,7 +19,7 @@ function(LayoutManager) {
     // Allow LayoutManager to augment Backbone.View.prototype.
     manage: true,
 
-    prefix: "app/templates/",
+    prefix: "/app/templates/",
 
     fetch: function(path) {
       // Concatenate the file extension.
@@ -72,7 +69,7 @@ function(LayoutManager) {
       } else {
         // Create a new Layout with options.
         this.layout = new Backbone.Layout(_.extend({
-          el: "main"
+          el: "#main"
         }, options));
       }
 

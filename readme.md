@@ -15,6 +15,7 @@ It uses a lot of @tbranyen's boilerplate files and file structure, but differs m
 Clone this repository:
 
     git clone --q --depth 0 git@github.com:jaapz/backbone-boilerplate.git 
+
 To start using this boilerplate, install bower (using npm):
 
     npm install bower -g
